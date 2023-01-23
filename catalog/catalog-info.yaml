@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rest-service
+  description: Simple REST Service
+  tags:
+    - java
+    - spring
+    - web
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=rest-service'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: making
