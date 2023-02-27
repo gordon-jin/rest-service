@@ -13,3 +13,4 @@ tanzu apps workload apply rest-service \
   -n demo \
   -y
 ```
+test
